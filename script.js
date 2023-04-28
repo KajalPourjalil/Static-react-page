@@ -94,7 +94,7 @@ const page = (
 function TempName() {
   return (
     <div>
-      <img src="reactjs_logo_icon_170805.png" width="200px" />
+      {/* <img src="reactjs_logo_icon_170805.png" width="200px" /> */}
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
@@ -107,23 +107,46 @@ function TempName() {
   );
 }
 
+function Header() {
+  return (
+    <div>
+    <header>
+      <nav>
+        <img src="reactjs_logo_icon_170805.png" width="200px" />
+      </nav>
+      <h1>Reasons why I love react</h1>
+    </header>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <div>
+      <footer>
+        <small>"@2023 Pourjalil development. All rights reserved."</small>
+      </footer>
+    </div>
+  );
+}
+
+function List() {
+  return (
+    <ul>
+      <li>I enjoy how fast it is</li>
+      <li>I like how complete it is</li>
+      <li>Helps me reach my goals</li>
+    </ul>
+  );
+}
+
 function Page() {
   return (
     <div>
-      <header>
-        <nav>
-          <img src="reactjs_logo_icon_170805.png" width="200px" />
-          <h1>Reasons why I'm excited to learn react:</h1>
-        </nav>
-      </header>
-      <ul>
-        <li>I enjoy how fast it is</li>
-        <li>I like how complete it is</li>
-        <li>Helps me reach my goals</li>
-      </ul>
-      <footer>
-        <p>"@2023 Pourjalil development. All rights reserved."</p>
-      </footer>
+      <Header />
+      <List/>
+      <TempName />
+      <Footer />
     </div>
   );
 }
