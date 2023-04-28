@@ -62,12 +62,8 @@
 //     </div>
 // )
 
-
-
-
 // ReactDOM.render(Element, document.getElementById('now'))
 // document.getElementById('now').append(Element)
-
 
 // ReactDOM.render(
 //   <div>
@@ -75,30 +71,61 @@
 //   <MainContent/>
 //   <New/>
 //   <Navbar/>
-    
+
 //   </div>, document.getElementById("root")
 // );
 
-
 // ReactDOM.createRoot(document.getElementById("root")).render(navbar)
 
-
 const page = (
+  <div>
+    <img src="reactjs_logo_icon_170805.png" width="200px" />
+    <h1>Fun facts about React</h1>
+    <ul>
+      <li>Was first released in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Has well over 100K stars on Github</li>
+      <li>Is maintained by Facebook</li>
+      <li>Powers thousands of enterprise apps, including mobile apps</li>
+    </ul>
+  </div>
+);
+
+function TempName() {
+  return (
     <div>
-        <img src="reactjs_logo_icon_170805.png" width="200px"/>
-        <h1>Fun facts about React</h1>
-        <ul>
-            <li>Was first released in 2013</li>
-            <li>Was originally created by Jordan Walke</li>
-            <li>Has well over 100K stars on Github</li>
-            <li>Is maintained by Facebook</li>
-            <li>Powers thousands of enterprise apps, including mobile apps</li>
-        </ul>
+      <img src="reactjs_logo_icon_170805.png" width="200px" />
+      <h1>Fun facts about React</h1>
+      <ul>
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Has well over 100K stars on Github</li>
+        <li>Is maintained by Facebook</li>
+        <li>Powers thousands of enterprise apps, including mobile apps</li>
+      </ul>
     </div>
-)
+  );
+}
 
+function Page() {
+  return (
+    <div>
+      <header>
+        <nav>
+          <img src="reactjs_logo_icon_170805.png" width="200px" />
+          <h1>Reasons why I'm excited to learn react:</h1>
+        </nav>
+      </header>
+      <ul>
+        <li>I enjoy how fast it is</li>
+        <li>I like how complete it is</li>
+        <li>Helps me reach my goals</li>
+      </ul>
+      <footer>
+        <p>"@2023 Pourjalil development. All rights reserved."</p>
+      </footer>
+    </div>
+  );
+}
 
-ReactDOM.render(page, document.getElementById('root'))
-
-
-
+ReactDOM.render(<Page />, document.getElementById("root"));
