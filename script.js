@@ -113,6 +113,11 @@ function Header() {
     <header>
       <nav>
         <img src="reactjs_logo_icon_170805.png" width="200px" />
+        <ul className="nav-items">
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
       </nav>
       <h1>Reasons why I love react</h1>
     </header>
