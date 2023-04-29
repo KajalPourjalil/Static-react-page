@@ -111,8 +111,8 @@ function Header() {
   return (
     <div>
     <header>
-      <nav>
-        <img src="reactjs_logo_icon_170805.png" width="200px" />
+      <nav className="nav">
+        <img className="logo" src="reactjs_logo_icon_170805.png" />
         <ul className="nav-items">
             <li>Pricing</li>
             <li>About</li>
