@@ -93,8 +93,7 @@ const page = (
 
 function TempName() {
   return (
-    <div>
-      {/* <img src="reactjs_logo_icon_170805.png" width="200px" /> */}
+    <div className="second">
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
@@ -119,7 +118,6 @@ function Header() {
             <li>Contact</li>
         </ul>
       </nav>
-      <h1>Reasons why I love react</h1>
     </header>
     </div>
   );
@@ -129,7 +127,7 @@ function Footer() {
   return (
     <div>
       <footer>
-        <small>"@2023 Pourjalil development. All rights reserved."</small>
+        <p>@2023 Pourjalil development. All rights reserved.</p>
       </footer>
     </div>
   );
@@ -137,11 +135,14 @@ function Footer() {
 
 function List() {
   return (
-    <ul>
+    <div className="first">
+    <h1>Reasons why I love react</h1>
+      <ul>
       <li>I enjoy how fast it is</li>
       <li>I like how complete it is</li>
       <li>Helps me reach my goals</li>
     </ul>
+    </div>
   );
 }
 

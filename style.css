@@ -1,23 +1,60 @@
 /*# sourceMappingURL=style.css.map */
+
+
+body {
+  margin: 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(107deg, rgba(9, 14, 92, 1) 0%, rgba(175, 0, 255, 1) 78%) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 667px;
+
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-
-
 .nav-items {
   list-style: none;
   display: flex;
 }
 
-
-
 .nav-items li {
-   padding: 10px;
+  padding: 10px;
 }
 
 .logo {
   width: 200px;
+}
+
+.first,
+.second,
+.list,
+.list0 {
+  margin-left: 5%;
+}
+
+.second {
+  margin-top:90px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  padding: 5px;
 }

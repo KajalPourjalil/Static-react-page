@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
 $myColor: gold;
 $fontSize: 45px;
+$background: rgb(9,14,92);
+$moz-background: -moz-linear-gradient(241deg, rgba(9,14,92,1) 0%, rgba(175,0,255,1) 78%);
+$web-background: -webkit-linear-gradient(241deg, rgba(9,14,92,1) 0%, rgba(175,0,255,1) 78%);
+$grad-background: linear-gradient(241deg, rgba(9,14,92,1) 0%, rgba(175,0,255,1) 78%);
+$filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090e5c",endColorstr="#af00ff",GradientType=1);
+
 
